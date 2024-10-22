@@ -1,0 +1,85 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": false,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "ignoreUploadUnusedFiles": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.4.2",
+  "appid": "wx9712fdaee7783a49",
+  "projectname": "xinan-front-end",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "心安圈",
+          "pathName": "page_anxincircle/anxincircle/anxincircle",
+          "query": ""
+        },
+        {
+          "name": "列表主页",
+          "pathName": "page_list/mainlist/mainlist",
+          "query": ""
+        },
+        {
+          "name": "LogIn",
+          "pathName": "page_user/login/login",
+          "query": ""
+        },
+        {
+          "name": "user",
+          "pathName": "page_user/homepage/homepage",
+          "query": ""
+        },
+        {
+          "name": "personalization",
+          "pathName": "page_user/personalization/personalization",
+          "query": ""
+        },
+        {
+          "name": "friendList",
+          "pathName": "page_user/friendlist/friendlist",
+          "query": ""
+        },
+        {
+          "name": "friendCard",
+          "pathName": "page_user/friendCard/friendCard",
+          "query": ""
+        },
+        {
+          "name": "detail",
+          "pathName": "pages/detail/detail",
+          "query": "processIndx=0"
+        },
+        {
+          "name": "editdetail",
+          "pathName": "pages/editDetail/editDetail",
+          "query": "processIndx=0"
+        },
+        {
+          "name": "test",
+          "pathName": "pages/test/test",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

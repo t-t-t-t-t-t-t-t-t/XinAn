@@ -1,0 +1,45 @@
+.headBar-wrap.data-v-49ed3c92 {
+  background-color: #ffffff;
+  height: 180rpx;
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  z-index: 999;
+}
+.headBar-wrap .headBar.data-v-49ed3c92 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.headBar-wrap .headBar .headBar-head.data-v-49ed3c92 {
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+}
+.headBar-wrap .headBar .headBar-head .image.data-v-49ed3c92 {
+  margin-left: 40rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+.headBar-wrap .headBar .headBar-head .text.data-v-49ed3c92 {
+  margin-left: 20rpx;
+}
+.headBar-wrap .headBar .headBar-body.data-v-49ed3c92 {
+  position: absolute;
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.headBar-wrap .headBar .headBar-body .text.data-v-49ed3c92 {
+  margin-left: 40rpx;
+  font-size: 50rpx;
+  white-space: nowrap;
+  font-weight: 900;
+}
+.headBar-wrap .headBar .headBar-body .image.data-v-49ed3c92 {
+  height: 120rpx;
+  margin-right: 20rpx;
+}
+

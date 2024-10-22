@@ -1,0 +1,178 @@
+.boxmarsk.data-v-b5ad57de {
+  height: 100vh;
+  width: 100%;
+  background-color: #343434bd;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+.boxmarsk .addcoundBox.data-v-b5ad57de {
+  width: 471rpx;
+  height: 656rpx;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background-color: #ffffff;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+  border-radius: 15rpx;
+}
+.boxmarsk .addcoundBox .msg.data-v-b5ad57de {
+  height: 50rpx;
+  width: 100%;
+  display: flex;
+  margin-bottom: 50rpx;
+}
+.boxmarsk .addcoundBox .msg .imgwrap.data-v-b5ad57de {
+  height: 50rpx;
+  width: 50rpx;
+  position: relative;
+}
+.boxmarsk .addcoundBox .msg .imgwrap image.data-v-b5ad57de {
+  height: 50rpx;
+  width: 50rpx;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.boxmarsk .addcoundBox .msg .imgwrap .dotted.data-v-b5ad57de {
+  height: 17rpx;
+  width: 17rpx;
+  background-color: #ff7c7c;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.boxmarsk .addcoundBox .userAcount.data-v-b5ad57de {
+  box-sizing: border-box;
+  height: 80rpx;
+  width: 100%;
+  border-radius: 80rpx;
+  border: 3rpx solid #000;
+  margin-top: 25rpx;
+  position: relative;
+}
+.boxmarsk .addcoundBox .userAcount input.data-v-b5ad57de, .boxmarsk .addcoundBox .userAcount .input.data-v-b5ad57de {
+  height: 80rpx;
+  width: 85%;
+  margin: 0 auto;
+}
+.boxmarsk .addcoundBox .userAcount text.data-v-b5ad57de {
+  height: 35rpx;
+  line-height: 35rpx;
+  padding: 0rpx 10rpx;
+  background-color: #fff;
+  position: absolute;
+  top: -40rpx;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  left: 1.5em;
+}
+.boxmarsk .addcoundBox .userPassword.data-v-b5ad57de {
+  box-sizing: border-box;
+  height: 80rpx;
+  width: 100%;
+  border-radius: 80rpx;
+  border: 3rpx solid #000;
+  margin-top: 25rpx;
+  position: relative;
+}
+.boxmarsk .addcoundBox .userPassword input.data-v-b5ad57de, .boxmarsk .addcoundBox .userPassword .input.data-v-b5ad57de {
+  height: 80rpx;
+  width: 85%;
+  margin: 0 auto;
+}
+.boxmarsk .addcoundBox .userPassword text.data-v-b5ad57de {
+  height: 35rpx;
+  line-height: 35rpx;
+  padding: 0rpx 10rpx;
+  background-color: #fff;
+  position: absolute;
+  top: -40rpx;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  left: 1.5em;
+}
+.boxmarsk .addcoundBox .checkApp.data-v-b5ad57de {
+  position: relative;
+  margin-top: 25rpx;
+  z-index: 1100;
+}
+.boxmarsk .addcoundBox .checkApp .addWish.data-v-b5ad57de {
+  box-sizing: border-box;
+  height: 80rpx;
+  width: 100%;
+  border-radius: 80rpx;
+  border: 3rpx solid #000;
+  margin-top: 25rpx;
+  position: relative;
+}
+.boxmarsk .addcoundBox .checkApp .addWish input.data-v-b5ad57de, .boxmarsk .addcoundBox .checkApp .addWish .input.data-v-b5ad57de {
+  height: 80rpx;
+  width: 85%;
+  margin: 0 auto;
+}
+.boxmarsk .addcoundBox .checkApp .addWish text.data-v-b5ad57de {
+  height: 35rpx;
+  line-height: 35rpx;
+  padding: 0rpx 10rpx;
+  background-color: #fff;
+  position: absolute;
+  top: -40rpx;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  left: 1.5em;
+}
+.boxmarsk .addcoundBox .checkApp .appList.data-v-b5ad57de {
+  height: 0vh;
+  overflow-y: auto;
+  margin-top: 20rpx;
+  width: 100%;
+  position: absolute;
+  padding: 0rpx 10rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  transition: all .2s;
+}
+.boxmarsk .addcoundBox .checkApp .appList.active1.data-v-b5ad57de {
+  height: 30vh;
+}
+.boxmarsk .addcoundBox .checkApp .appList.active2.data-v-b5ad57de {
+  height: 110rpx;
+  overflow: hidden;
+}
+.boxmarsk .addcoundBox .checkApp .appList .appItem.data-v-b5ad57de {
+  height: 80rpx;
+  border-radius: 20rpx;
+  border: 4rpx solid #000;
+  display: flex;
+  align-items: center;
+  padding: 8rpx 20rpx;
+  z-index: 10;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.boxmarsk .addcoundBox .checkApp .appList .appItem image.data-v-b5ad57de {
+  height: 64rpx;
+  width: 64rpx;
+}
+.boxmarsk .addcoundBox .checkApp .appList .appItem text.data-v-b5ad57de {
+  margin-left: 30rpx;
+  font-weight: 600;
+}
+.boxmarsk .addcoundBox .submmit.data-v-b5ad57de {
+  margin-top: 150rpx;
+  height: 70rpx;
+  background-color: #343434;
+  color: #fff;
+  border-radius: 15rpx;
+  line-height: 70rpx;
+  text-align: center;
+}
+

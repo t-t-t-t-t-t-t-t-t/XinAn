@@ -1,0 +1,135 @@
+.tip {
+  font-size: 20rpx;
+  color: #6e6e6e;
+  opacity: 0.3;
+  margin-left: 120rpx;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+.save {
+  width: 50%;
+  height: 60rpx;
+  background-color: #343434;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: 2rpx solid #000;
+  border-radius: 15rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.head {
+  color: transparent;
+  width: 200rpx;
+  height: 200rpx;
+  padding: 0;
+  position: relative;
+}
+.head image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.inputArea {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20rpx auto;
+}
+.inputArea .inputBar {
+  box-sizing: border-box;
+  height: 80rpx;
+  width: 100%;
+  border-radius: 80rpx;
+  border: 3rpx solid #000;
+  margin-top: 25rpx;
+  position: relative;
+  width: 85%;
+}
+.inputArea .inputBar input, .inputArea .inputBar .input {
+  height: 80rpx;
+  width: 85%;
+  margin: 0 auto;
+}
+.inputArea .inputBar text {
+  height: 35rpx;
+  line-height: 35rpx;
+  padding: 0rpx 10rpx;
+  background-color: #fff;
+  position: absolute;
+  top: -40rpx;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  left: 1.5em;
+}
+.block {
+  height: 118rpx;
+  clear: both;
+}
+.block .add {
+  height: 60rpx;
+  width: 60rpx;
+  display: inline;
+  float: right;
+  margin: 10rpx 55rpx 0 0;
+}
+.block .input {
+  border: 5rpx solid black;
+  border-radius: 20rpx;
+  height: 70rpx;
+  width: 570rpx;
+  float: left;
+  margin-left: 40rpx;
+  font-size: 90%;
+  display: inline;
+}
+.block .input .text {
+  height: 70rpx;
+  width: 400rpx;
+  margin-left: 40rpx;
+  font-size: 90%;
+  float: left;
+  display: inline;
+}
+.block .icon {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #FFFFFF;
+  float: left;
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  margin-right: 0rpx;
+  display: inline;
+  float: left;
+}
+.block .title {
+  color: #343434;
+  font-size: 30rpx;
+  display: inline;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+.block .line {
+  height: 80rpx;
+  font-weight: bold;
+  width: 667rpx;
+  float: left;
+  margin-left: 40rpx;
+  margin-top: 10rpx;
+  font-size: 150%;
+}
+.block .line .vector {
+  width: 380rpx;
+  height: 50rpx;
+  margin-left: 65rpx;
+}
+

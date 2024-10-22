@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "add-box": "/page_list/socialplatform/compoents/addBox",
+    "item": "/page_list/socialplatform/compoents/Item",
+    "editimg-vue": "/page_list/socialplatform/compoents/editimg"
+  }
+}

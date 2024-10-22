@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/serve/serve",
+    "pages/login/login",
+    "pages/merchant/merchant",
+    "pages/detail/detail",
+    "pages/test/test",
+    "pages/editDetail/editDetail"
+  ],
+  "subPackages": [
+    {
+      "root": "page_list",
+      "pages": [
+        "invitelist/invitelist",
+        "mainlist/mainlist",
+        "treasure/treasure",
+        "password/password",
+        "pet/pet",
+        "wishlist/wishlist",
+        "socialplatform/socialplatform",
+        "friendhome/friendhome"
+      ]
+    },
+    {
+      "root": "page_anxincircle",
+      "pages": [
+        "anxincircle/anxincircle"
+      ]
+    },
+    {
+      "root": "page_user",
+      "pages": [
+        "homepage/homepage",
+        "friendlist/friendlist",
+        "friendCard/friendCard",
+        "favoritebusiness/favoritebusiness",
+        "personalization/personalization",
+        "friendXinanCircle/friendXinanCircle"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "rpxCalcMaxDeviceWidth": 1024,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "usingComponents": {
+    "buttom-bar": "/compoents/buttomBar/buttomBar",
+    "head-bar": "/compoents/headBar/headBar",
+    "marsk-box": "/compoents/marskBox/marskBox"
+  }
+}

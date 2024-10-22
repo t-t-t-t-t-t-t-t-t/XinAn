@@ -1,0 +1,40 @@
+.body {
+  width: 100%;
+  position: relative;
+  top: 180rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.trasureButtom {
+  height: 400rpx;
+  width: 100%;
+}
+.showAdd {
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100rpx;
+  width: 100rpx;
+  background-color: #343434ee;
+  position: fixed;
+  z-index: 999;
+  padding: 0px;
+  bottom: 15%;
+  right: 5%;
+  border-radius: 50%;
+  font-size: 100rpx;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  line-height: 90rpx;
+}
+.boxmarsk {
+  height: 100vh;
+  width: 100%;
+  background-color: #343434bd;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+

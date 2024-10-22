@@ -1,0 +1,52 @@
+
+@mixin input() { // 输入框封装（大小应该不会变吧，）
+		$height: 80rpx;
+		box-sizing: border-box;
+		height: $height;
+		width:100%;
+		border-radius: $height;
+		border: 3rpx solid #000;
+		margin-top: 25rpx;
+		position: relative;
+
+		input,.input {
+			height: $height;
+			width: 85%;
+			margin: 0 auto;
+		}
+
+		text {
+			$textheight: 35rpx;
+			height: $textheight;
+			line-height: $textheight;
+			padding: 0rpx 10rpx;
+			background-color: #fff;
+			position: absolute;
+			top: -$height/2;
+			transform: translateY(50%);
+			left: 1.5em;
+		}
+}
+@mixin button($height,$width) {
+	height:$height;
+	width:$width;
+	line-height: $height;
+	padding: 0;
+	box-sizing: border-box;
+	border-radius: 15rpx;
+	border: 4rpx solid ;
+}
+@mixin button-black($height,$width) {
+	@include button($height,$width);
+	background-color: $bouttom-black;
+	color:#fff;
+	border-color:  #fff;
+}
+@mixin button-white($height,$width) {
+	@include button($height,$width);
+	background-color: #fff;
+	color:$bouttom-black;
+	border-color:#343434;
+}
+
+$bouttom-black:#343434;// 全局的黑色主题色

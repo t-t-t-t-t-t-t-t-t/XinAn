@@ -1,0 +1,52 @@
+.wishBody {
+  position: relative;
+  top: 180rpx;
+  margin-top: 20rpx;
+  width: 90%;
+  padding: 0rpx 40rpx;
+  margin: 0rpx auto;
+  box-sizing: border-box;
+}
+.wishBody .addConutBox {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 20rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wishBody .addConutBox > view {
+  color: #fff;
+  background-color: #343434;
+  border: 4rpx solid #343434;
+  box-sizing: border-box;
+  padding: 0px;
+  height: 60rpx;
+  width: 45%;
+  line-heihgt: 60rpx;
+  border-radius: 14rpx;
+  text-align: center;
+}
+.wishBody .addConutBox .addConut {
+  position: relative;
+}
+.wishBody .addConutBox .editCound {
+  color: #000;
+  background-color: #fff;
+  border: 4rpx solid #343434;
+}
+.wishBody .wishContent {
+  position: relative;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.wishBody .wishContent .wishItem {
+  margin-bottom: 30rpx;
+}
+.wishBody .wishContent .bottom {
+  height: 30vh;
+}
+

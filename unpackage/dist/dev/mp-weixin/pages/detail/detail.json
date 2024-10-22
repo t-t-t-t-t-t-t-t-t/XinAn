@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "add-box": "/pages/detail/compoents/addBox",
+    "edit-box": "/pages/detail/compoents/editBox"
+  }
+}

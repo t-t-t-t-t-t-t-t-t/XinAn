@@ -1,0 +1,91 @@
+.Mainlist-content.data-v-1c6ac870 {
+  width: 100%;
+  padding: 0rpx 5%;
+  box-sizing: border-box;
+}
+.Mainlist-content .ListItem.data-v-1c6ac870 {
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  border: 4rpx solid #000;
+  margin: 10rpx 0rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx 20rpx;
+}
+.Mainlist-content .ListItem .left.data-v-1c6ac870 {
+  font-size: 45rpx;
+  font-weight: 500;
+  width: 80%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.Mainlist-content .buttom.data-v-1c6ac870 {
+  height: 30vh;
+  width: 100%;
+}
+.rectangle26.data-v-1c6ac870 {
+  width: 750rpx;
+  height: 400rpx;
+  background-color: #343434;
+  border: 1rpx solid black;
+  border-radius: 0rpx 0rpx 60rpx 60rpx;
+  display: inline-block;
+}
+.rectangle26 .rectangle27.data-v-1c6ac870 {
+  width: 580rpx;
+  height: 280rpx;
+  background-color: #FFFFFF;
+  margin: 20rpx 10rpx 30rpx 80rpx;
+  border-radius: 60rpx;
+  display: inline-block;
+}
+.rectangle26 .rectangle27 .process.data-v-1c6ac870 {
+  margin: 30rpx 0rpx 0rpx 30rpx;
+  font-size: 80%;
+}
+.rectangle26 .rectangle27 .opacity.data-v-1c6ac870 {
+  height: 180rpx;
+  width: 180rpx;
+  z-index: 100;
+  display: inline;
+  margin-right: 190rpx;
+  margin-top: -140rpx;
+  font-size: 180%;
+  float: right;
+}
+.rectangle26 .rectangle27 .circle1.data-v-1c6ac870 {
+  width: 180rpx;
+  height: 180rpx;
+  z-index: -1;
+  display: inline;
+  margin-left: 190rpx;
+  margin-top: -50rpx;
+}
+.rectangle26 .rectangle27 .circle2.data-v-1c6ac870 {
+  width: 180rpx;
+  height: 180rpx;
+  float: left;
+  z-index: 50;
+  display: inline;
+  margin-left: 190rpx;
+  margin-top: -50rpx;
+}
+.rectangle26 .icon.data-v-1c6ac870 {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #343434;
+  float: left;
+  display: inline-block;
+  margin-top: 20rpx;
+  margin-left: 80rpx;
+  margin-right: 0rpx;
+}
+.rectangle26 .title.data-v-1c6ac870 {
+  margin-top: 25rpx;
+  margin-left: 130rpx;
+  color: #FFFFFF;
+  font-size: 25rpx;
+}
+

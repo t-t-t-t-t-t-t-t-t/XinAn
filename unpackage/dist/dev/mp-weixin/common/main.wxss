@@ -1,0 +1,62 @@
+.wishBody checkbox {
+  width: 40rpx;
+  height: 40rpx;
+}
+.wishBody checkbox .wx-checkbox-input {
+  border-radius: 50% !important;
+  box-shadow: 0rpx 7rpx 5rpx 3rpx #d1d1d1 !important;
+}
+.wishBody checkbox .wx-checkbox-input-checked {
+  border-radius: 50% !important;
+  box-shadow: 0rpx 7rpx 5rpx 3rpx #d1d1d1 !important;
+  background-color: #000;
+  border: #000 solid 2rpx;
+}
+.wishBody checkbox .wx-checkbox-input-checked.wx-checkbox-input::before {
+  color: #fff !important;
+  font-weight: 900;
+}
+.something checkbox {
+  width: 50rpx;
+  height: 50rpx;
+}
+.something checkbox .wx-checkbox-input {
+  border-radius: 50% !important;
+  border: #000 solid 2rpx;
+}
+.something checkbox .wx-checkbox-input-checked {
+  border-radius: 50% !important;
+  border: #000 solid 2rpx;
+}
+.something checkbox .wx-checkbox-input-checked.wx-checkbox-input::before {
+  color: #000 !important;
+  font-size: 80rpx;
+  -webkit-transform: translate(-35%, -65%);
+          transform: translate(-35%, -65%);
+}
+.Mainlist-content checkbox {
+  width: 50rpx;
+  height: 50rpx;
+}
+.Mainlist-content checkbox .wx-checkbox-input {
+  border-radius: 50% !important;
+  border: #000 solid 2rpx;
+}
+.Mainlist-content checkbox .wx-checkbox-input-checked {
+  border-radius: 50% !important;
+  border: #000 solid 2rpx;
+}
+.Mainlist-content checkbox .wx-checkbox-input-checked.wx-checkbox-input::before {
+  color: #000 !important;
+  font-size: 80rpx;
+  -webkit-transform: translate(-35%, -65%);
+          transform: translate(-35%, -65%);
+}
+.socialItem radio .wx-radio-input {
+  border: 2rpx solid #ddd;
+}
+.socialItem radio .wx-radio-input-checked {
+  border: 2rpx solid #ddd;
+  background-color: #000 !important;
+}
+
